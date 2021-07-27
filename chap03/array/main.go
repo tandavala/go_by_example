@@ -15,7 +15,6 @@ func main() {
 	// insert data
 	fmt.Println(">>>>>>insert array data")
 	for i := 0; i < 5; i++ {
-		numbers[i] = i
 		cities[i] = fmt.Sprintf("City %d", i)
 	}
 
