@@ -11,6 +11,7 @@ func main(){
 	fmt.Println(data)
 	cities := strings.Split(data, ";")
 	fmt.Println(cities)
+	
 	for _, city := range cities {
 		fmt.Println(city)
 	}
