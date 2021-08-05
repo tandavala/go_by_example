@@ -10,6 +10,7 @@ func main(){
 	data := "Berlin;Amsterdam;London;Tokyo"
 	fmt.Println(data)
 	cities := strings.Split(data, ";")
+
 	fmt.Println(cities)
 	
 	for _, city := range cities {
